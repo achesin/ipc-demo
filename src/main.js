@@ -23,7 +23,7 @@ app.on('ready', _ => {
 
     mainWindow.loadURL(`file://${__dirname}/countdown.html`);
 
-    mainWindow.webContents.openDevTools();
+    // mainWindow.webContents.openDevTools();
     // countdown();
 
     mainWindow.on('closed', _ => {
